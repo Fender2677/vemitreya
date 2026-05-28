@@ -1,4 +1,4 @@
-# Vemitreya <img width="240" height="238" alt="logo" src="https://github.com/user-attachments/assets/28dc58c8-9ceb-444e-83d4-02784db4a065" />
+# Vemitreya
 
 
 
