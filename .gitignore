@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Локальные данные и секреты
+.env
+*.db
+*.sqlite
+data/
+backups/
+
+# Внутренние заметки (не для публикации)
+docs/internal/
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Логи
+*.log

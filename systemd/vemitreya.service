@@ -1,0 +1,24 @@
+[Unit]
+Description=Vemitreya — Mihomo Control Panel
+After=network-online.target mihomo.service
+Wants=network-online.target mihomo.service
+StartLimitIntervalSec=300
+StartLimitBurst=20
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/vemitreya/backend
+EnvironmentFile=/opt/vemitreya/.env
+ExecStart=/opt/vemitreya/venv/bin/python /opt/vemitreya/backend/main.py
+Restart=always
+RestartSec=10
+LimitNOFILE=65535
+TimeoutStartSec=30
+TimeoutStopSec=15
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=vemitreya
+
+[Install]
+WantedBy=multi-user.target
