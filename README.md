@@ -1,5 +1,6 @@
 # Vemitreya
 
+<img width="480" height="376" alt="image" src="https://github.com/user-attachments/assets/0fbf01d4-42d3-409a-93a0-9789b97709b3" />
 
 
 **Веб-панель управления прокси-инфраструктурой на базе [Mihomo](https://github.com/MetaCubeX/mihomo).**
