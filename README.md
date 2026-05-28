@@ -1,4 +1,5 @@
-# Vemitreya <img width="23" height="14" alt="image" src="https://github.com/user-attachments/assets/7586a074-8e70-4971-b51f-b8708c1d7c93" />
+# Vemitreya <img width="240" height="238" alt="logo" src="https://github.com/user-attachments/assets/28dc58c8-9ceb-444e-83d4-02784db4a065" />
+
 
 
 **Веб-панель управления прокси-инфраструктурой на базе [Mihomo](https://github.com/MetaCubeX/mihomo).**
@@ -10,7 +11,7 @@
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 ---
-
+<img width="1276" height="644" alt="image" src="https://github.com/user-attachments/assets/42c02d64-d8ad-4dab-bdeb-8ff739b944e5" />
 ## Возможности
 
 - **Дашборд** — CPU/RAM/диск, живой трафик, активные каналы и маршрутизация.
@@ -39,7 +40,6 @@
 - Открытый порт `8888` для веб-панели
 
 ---
-<img width="1276" height="644" alt="image" src="https://github.com/user-attachments/assets/42c02d64-d8ad-4dab-bdeb-8ff739b944e5" />
 
 ## Установка
 
