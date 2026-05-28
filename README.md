@@ -1,4 +1,5 @@
-# Vemitreya
+# Vemitreya <img width="23" height="14" alt="image" src="https://github.com/user-attachments/assets/7586a074-8e70-4971-b51f-b8708c1d7c93" />
+
 
 **Веб-панель управления прокси-инфраструктурой на базе [Mihomo](https://github.com/MetaCubeX/mihomo).**
 Объединяет Mihomo, AmneziaWG и TrustTunnel в одном интерфейсе: маршрутизация трафика,
@@ -38,6 +39,7 @@
 - Открытый порт `8888` для веб-панели
 
 ---
+<img width="1276" height="644" alt="image" src="https://github.com/user-attachments/assets/42c02d64-d8ad-4dab-bdeb-8ff739b944e5" />
 
 ## Установка
 
