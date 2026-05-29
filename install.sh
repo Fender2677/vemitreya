@@ -704,7 +704,7 @@ net.ipv4.ip_forward = 1
 net.ipv4.conf.all.src_valid_mark = 1
 SYSCTL
 
-DUPS=$(grep -cE '^net\.ipv4\.ip_forward' /etc/sysctl.conf 2>/dev/null)
+DUPS=$(grep -cE '^net\.ipv4\.ip_forward' /etc/sysctl.conf 2>/dev/null || echo 0)
 DUPS=${DUPS:-0}
 DUPS=$(echo "$DUPS" | head -1 | tr -d '[:space:]')
 if [ "${DUPS:-0}" -gt 1 ] 2>/dev/null; then
@@ -1226,6 +1226,8 @@ if [ $SMOKE_FAIL -gt 0 ]; then
     err "Это означает что установка прошла, но что-то не работает."
     err "Проверьте логи: journalctl -u vemitreya -u mihomo --no-pager -n 30"
 fi
+
+set +e  # фикс: финальный блок с токеном должен выполниться ВСЕГДА
 
 # =====================================================
 # Готово

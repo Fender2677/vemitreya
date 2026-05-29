@@ -382,7 +382,7 @@ def _normalize_awg_configs_at_startup():
         print(f"[awg-normalize] исправлены: {fixed}. "
               f"Перезапусти 'awg-quick@<name>' чтобы применить.")
 
-app = FastAPI(title="Vemitreya — Mihomo Control Panel", version="2.206", lifespan=lifespan)
+app = FastAPI(title="Vemitreya — Mihomo Control Panel", version="2.206.1", lifespan=lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 # Глобальный обработчик любых необработанных исключений
@@ -2281,7 +2281,7 @@ async def geo_update(_: bool = Auth):
 # ============================================
 # VEMIREYA PANEL SELF-UPDATE (через архив или GitHub)
 # ============================================
-PANEL_VERSION = "2.206"
+PANEL_VERSION = "2.206.1"
 PANEL_INSTALL_DIR = os.environ.get("PANEL_INSTALL_DIR", "/opt/vemitreya")
 
 # Опционально GitHub для апдейтов

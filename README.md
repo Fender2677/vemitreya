@@ -1,16 +1,14 @@
 # Vemitreya
 
-
 **Веб-панель управления прокси-инфраструктурой на базе [Mihomo](https://github.com/MetaCubeX/mihomo).**
 Объединяет Mihomo, AmneziaWG и TrustTunnel в одном интерфейсе: маршрутизация трафика,
 подписки, умный автовыбор быстрейшего сервера и автонастройка домашних роутеров.
 
-![version](https://img.shields.io/badge/version-2.206-blue)
+![version](https://img.shields.io/badge/version-2.206.1-blue)
 ![platform](https://img.shields.io/badge/platform-Ubuntu%2022.04%20%7C%2024.04-orange)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 ---
-<img width="1148" height="594" alt="image" src="https://github.com/user-attachments/assets/d927f17d-f3ee-45b7-b449-82bc5bcf9872" />
 
 ## Возможности
 
@@ -44,9 +42,8 @@
 ## Установка
 
 ```bash
-git clone https://github.com/vyalu/vemitreya.git
+git clone https://github.com/Fender2677/vemitreya.git
 cd vemitreya
-chmod +x install.sh
 sudo ./install.sh
 ```
 
@@ -76,7 +73,6 @@ sudo ./install.sh   # пункт 4 — обновить панель
 
 **Через веб-интерфейс:** раздел «Обновления» → загрузить `.zip` архив, либо
 кнопка «Обновить с GitHub» (если в `.env` задан `PANEL_GITHUB_REPO`).
-<img width="1140" height="530" alt="image" src="https://github.com/user-attachments/assets/c329501c-18ef-4306-b14a-b0caf2bec3b5" />
 
 ---
 
@@ -132,6 +128,7 @@ sudo awg show
 ```
 
 ---
+
 ## Поддержать проект
 
 Если панель оказалась полезной, можно поддержать разработку:
@@ -139,6 +136,7 @@ sudo awg show
 [![Donate](https://img.shields.io/badge/YooMoney-%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-8B3FFD?style=for-the-badge)](https://yoomoney.ru/to/4100116126044784)
 
 ---
+
 ## Лицензия
 
 [MIT](LICENSE) — свободное использование, изменение и распространение, в том

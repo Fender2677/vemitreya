@@ -1,8 +1,8 @@
 {
-  "version": "2.206",
-  "generated_at": "2026-05-28T07:25:31Z",
+  "version": "2.206.1",
+  "generated_at": "2026-05-29T11:29:07Z",
   "files": {
-    "backend/main.py": "sha256:b930ab47b8f00a3b7165f0fc07858e9c6727eb802c9adbdada794313880f43c5",
+    "backend/main.py": "sha256:25471d080e4b51e8086256a36229658ad33cf2f44e972dd126f3cd565852f7eb",
     "backend/requirements.txt": "sha256:aa3b963f1f768f68fbf489b1da83b2025fa054ae657f392a4c2ce37e45e57b13",
     "frontend/app.jsx": "sha256:bd3c8b6b9085e355e8cfc2bb4636e44141563de5934fc264f1c98f094b285377",
     "frontend/index.html": "sha256:25575f09c6dfe9479a8809a7bbf943e420bcf9e23447a62ff791e551b1171088",
