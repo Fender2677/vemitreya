@@ -44,7 +44,9 @@
 ## Установка
 
 ```bash
+sudo apt install unzip
 git clone https://github.com/vyalu/vemitreya.git
+unzip vemitreya.zip
 cd vemitreya
 sudo ./install.sh
 ```
