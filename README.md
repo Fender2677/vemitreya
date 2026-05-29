@@ -44,7 +44,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/Fender2677/vemitreya.git
+git clone https://github.com/vyalu/vemitreya.git
 cd vemitreya
 sudo ./install.sh
 ```
